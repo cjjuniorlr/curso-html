@@ -8,9 +8,9 @@
     <meta name="description"
         content="Esta página web está sendo constrída no curso de HTML5 da UpInside trinamentos!" />
     <link rel="shortcut icon" href="img/favicon.png" />
-    <link rel="stylesheet" href="style.css" />>
-    <link rel="stylesheet" href="reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"/>
     <title>Curso de HTML5 - UpInside Treinamentos</title>
 
 </head>
@@ -22,12 +22,12 @@
             <h1 class="fontzero">Curso de HTML5 - UpInside Treinamentos</h1>
 
             <ul class="main_menu">
-                <li><a href="#home" title="Curso de HTML5">Home</a></a></li>
-                <li><a href="#curso" title="Sobre o Curso de HTML5">O Curso</a></a></li>
+                <li><a href="#home" title="Curso de HTML5">Home</a></li>
+                <li><a href="#curso" title="Sobre o Curso de HTML5">O Curso</a></li>
                 <li><a class="special" target="_blank" href="https://www.upinside.com.br/"
-                        title="Curso Work Series - HTML5 do Jeito Certo">Work Series</a></a></li>
-                <li><a href="#videoaulas" title="Confira Video Aulas do Curso de HTML5">Video Aulas</a></a></li>
-                <li><a href="#contato" title="Contato sobre o Curso de HTML5">Fale Conosco</a></a></li>
+                        title="Curso Work Series - HTML5 do Jeito Certo">Work Series</a></li>
+                <li><a href="#videoaulas" title="Confira Video Aulas do Curso de HTML5">Video Aulas</a></li>
+                <li><a href="#contato" title="Contato sobre o Curso de HTML5">Fale Conosco</a></li>
             </ul>
             <div class="clear"></div>
         </div>
@@ -56,10 +56,7 @@
 
                     <div class="destaque_video">
                         <div class="ratio">
-                            <iframe class="media" src="https://www.youtube-nocookie.com/embed/m_5RoDBfF70?start=2"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                            <iframe id="video" class="media"  frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -80,7 +77,7 @@
                     <h1>HTML e HTML5!</h1>
                     <p>Aprenda a utilizar o HTML5 do jeito certo! Segmentando seu site e distribuindo o conteúdo de
                         forma otimizada e de ponta a ponta!</p>
-                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/Y \à\s H:i\h\s'); ?></time> em
+                    <span><time datetime="10/10/2019">09:45</time> em
                         <b>Matérias</b></span>
                 </article>
 
@@ -89,7 +86,7 @@
                     <h1>CSS e CSS3!</h1>
                     <p>Trabalhe com qualidade e produtividade o seu CSS. Aplicando classes coesas e focando no que
                         realmente importa. O conteúdo do site!</p>
-                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/Y \à\s H:i\h\s'); ?></time> em
+                    <span><time datetime="10/10/2019">09:45</time> em
                         <b>Matérias</b></span>
                 </article>
 
@@ -98,7 +95,7 @@
                     <h1>jQuery!</h1>
                     <p>JavaScript? Claro! Contudo aqui vamos trabalhar com jQuery. Entender a biblioteca e seu uso
                         padrão. Produtividade é essencial!</p>
-                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/Y \à\s H:i\h\s'); ?></time> em
+                    <span><time datetime="10/10/2019">09:45</time> em
                         <b>Matérias</b></span>
                 </article>
 
@@ -108,7 +105,7 @@
                     <h1>Work Series!</h1>
                     <p>Termou o curso de HTML5? Então é hora de se tornar um ninja com a linguagem e aprender técnicas
                         avançadas de otimização!</p>
-                    <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/Y \à\s H:i\h\s'); ?></time> em
+                    <span><time datetime="10/10/2019">09:45</time> em
                         <b>Matérias</b></span>
                 </article>
                 <div class="clear"></div>
@@ -271,6 +268,7 @@
 
     <div id="fb-root"></div>
     <script src="./js/facebook.sdk.js"></script>
-    <!-- <script src="./js/jquery.js"></script> -->
-    <!-- <script src="./js/scripts.js"></script> -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/scripts.js"></script>
 </body>
+</html>
